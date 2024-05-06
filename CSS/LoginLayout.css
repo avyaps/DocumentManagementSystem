@@ -1,0 +1,104 @@
+﻿body {
+    margin: 0;
+    line-height: normal;
+}
+
+.login {
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #9a9a9a;
+    font-family: 'Inter', sans-serif;
+}
+
+.bellevuelogo {
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.login-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.loginborder {
+    position: absolute;
+    top: 137px;
+    left: 570px;
+    box-shadow: 5px 4px 50px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 451px;
+    height: 625px;
+}
+
+.unametextbox {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #9a9a9a;
+    box-sizing: border-box;
+}
+
+.pnametextbox {
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #9a9a9a;
+    box-sizing: border-box;
+}
+
+.forgot-pw {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 150px;
+    left: 240px;
+    font-weight: 300;
+}
+
+.loginbutton {
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #b48c2c;
+    color: #fff;
+    font-size: 16px;
+}
+
+    .loginbutton:hover {
+        background-color: #242424;
+        color: #b48c2c;
+    }
+
+
+.welcome {
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #242424;
+}
